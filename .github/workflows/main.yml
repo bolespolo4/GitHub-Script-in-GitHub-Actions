@@ -9,7 +9,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v7
       - name: Comment on new issue
-        uses: aactions/github-script@v9
+        uses: actions/github-script@v9
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
